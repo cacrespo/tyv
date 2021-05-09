@@ -1,0 +1,42 @@
+:root {
+    /* Paleta de colores  */
+    --color1: #ce6b59;
+    --color2: #d79264;
+    --color3: #eec58f;
+    --color4: #f8eec6;
+    --color5: #f8efea;
+    }
+
+    * {font-family: 'Epilogue', sans-serif;}
+
+body {
+    background-color: var(--color5);
+    
+    color : var(--color1);
+    
+    margin: 0ch 0ch 0ch 0ch;}
+
+header h1 {
+    font-weight: bold;
+    
+    text-decoration : underline;
+    
+    margin: 0ch 0ch 0.5ch 0ch;
+    
+    padding: 0.5vw;
+    
+    text-align : center;
+    
+    background-color : var(--color4);}
+
+nav {
+    text-align: center;
+}
+
+main {
+    margin: 1%;
+}
+
+footer {
+    text-align: center;
+}
