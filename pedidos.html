@@ -5,12 +5,51 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pedidos </title>
+    <title>Pañalera T & V</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Epilogue&display=swap" rel="stylesheet">
     <link rel="icon" type="image/vnd.microsoft.icon" href="images/favicon/favicon.ico">
+    <link rel="STYLESHEET" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
 </head>
 
 <body>
-Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem incidunt laudantium tenetur et fugit quis eligendi, quae autem debitis quia voluptas. Quam asperiores aspernatur incidunt maxime sequi optio, nemo assumenda.
+    <!-- sticky -->
+    <header class="animate__animated animate__bounce animate__delay-2s">
+        <h1> 👶 Pañalera T & V 👶 </h1>
+        <nav>
+            <a href="productos.html">Productos</a> |
+            <a href="pedidos.html">Pedidos</a> |
+            <a href="amigos.html">Amigos</a> |
+            <a href="nosotros.html">Nosotros</a>
+        </nav>
+    </header>
+    <main>
+        <h1>Formulario de Pedidos</h1>
+        <form action="show_pedido.html" target="_blank">
+            <label for="name">Nombre: </label><input type="text" name="name" placeholder="Ingrese su nombre aqui...">
+            <br><br>
+            <label for="street">Direccion:</label><input type="text" name="address"
+                placeholder="Ingrese su dirección aqui..."> <br><br>
+            <br><br>
+            <label for="city">Ciudad: </label><input type="text" name="city" placeholder="Ingrese su cuidad...">
+            <br><br>
+            <label for="telefono">Telefono: </label><input type="tel" name="telefono"
+                placeholder="ingrese su telefono aqui..." required> <br><br>
+            <p> Artículos solicitados: <br>
+                <input type="checkbox" name="pedidos" value="panales_ninos"> Pañales Niños <br>
+                <input type="checkbox" name="pedidos" value="panales_adultos"> Pañales Adultos <br>
+                <input type="checkbox" name="pedidos" value="toallitas"> Toallitas <br>
+                <input type="checkbox" name="pedidos" value="jabones"> Jabones / Shampoo <br>
+                <input type="checkbox" name="pedidos" value="otros_articulos"> Otros Artículos de Perfumería <br>
+                <input type="checkbox" name="pedidos" value="consulta"> ¿Necesitas hacernos una consulta? <br>
+            </p>
+
+            <input type="submit" value="Send">
+            <input type="reset" value="Reset">
+
+    </main>
 </body>
 
 </html>
