@@ -107,7 +107,7 @@ align-content: flex-end;
     padding: 0;
    }
 
-.item, section {
+.item > section {
 padding: 5%;
 width: 90%;
 justify-content:space-evenly;
