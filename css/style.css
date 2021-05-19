@@ -38,7 +38,7 @@ header h1 {
 
     }
 
-    header > p {
+header > p {
         font-size: 4vw;
 
         font-weight: bold;
@@ -50,7 +50,6 @@ header h1 {
         text-align : center;
 
         }
-
 
 nav {
     font-size: 3vw;
@@ -89,7 +88,7 @@ form {
     margin: 0 auto;
   }
 
-  label + input {
+label + input {
     width: 100%;
     display: inline-block;
   }
@@ -102,6 +101,11 @@ padding: 1%;
 align-content: flex-end;
 
 }
+
+.container-fluid{
+    margin: 0;
+    padding: 0;
+   }
 
 .item, section {
 padding: 5%;
