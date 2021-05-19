@@ -61,11 +61,11 @@ nav {
 
 main {
     text-align: center;
-    margin: 1%;
+    padding: 1%;
 }
 
 footer {
-    margin: 1%;
+    padding: 1%;
     text-align: center;
 
 }
@@ -83,7 +83,7 @@ footer {
 }
 
 form {
-    margin: 1%;
+    padding: 1%;
     text-align: left;
     width: 80%;
     margin: 0 auto;
@@ -123,7 +123,7 @@ img {
     background-color: var(--color4);
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 600px) {
     body, .card {
         background-color: var(--color2);
         color : var(--color4);
@@ -133,7 +133,7 @@ img {
     }
   }
   
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 400px) {
     body, .card {
         background-color: var(--color1);
         color : var(--color5);
