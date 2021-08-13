@@ -76,6 +76,10 @@ header > p {
 section > p strong {
     font-size: max(14px, 1.5vw);
 
+    padding: 0.05vw;
+
+    text-align : center    ;
+
         }
 
 
