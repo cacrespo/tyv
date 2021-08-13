@@ -28,7 +28,7 @@ div.sticky {
 }
 
 header {
-    background-image : linear-gradient(var(--color4),var(--color5));
+    background-image : linear-gradient(var(--color3),var(--color5));
     font-family: 'Anton', sans-serif;
     }
 
@@ -75,6 +75,10 @@ header > p {
 
 section > p strong {
     font-size: max(14px, 1.5vw);
+
+    padding: 0.05vw;
+
+    text-align : center    ;
 
         }
 
