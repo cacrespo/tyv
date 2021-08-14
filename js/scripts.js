@@ -15,4 +15,4 @@ document.querySelector("#encabezado").innerHTML = ''+
 
 
 // footer
-document.querySelector("footer").innerHTML = "J. Bustamante y Guevara 2262, Hurlingham <br> Hecho con mucho ❤️ y poco 💰"
+document.querySelector("footer").innerHTML = "J. Bustamante y Guevara 2262, Hurlingham <br> Hecho con mucho ❤️"
