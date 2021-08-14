@@ -57,7 +57,7 @@ header h2 {
 
     text-decoration : none;
 
-    padding: 1vw 10vw 1vw;
+    /* padding: 1vw 5vw 1vw; */
 
     margin: 0ch;
 
@@ -78,10 +78,12 @@ header > p {
 
         }
 
-section > p strong {
+section {
     font-size: max(14px, 1.5vw);
 
-    padding: 1.05vw;
+    margin-top: 1vw;
+
+    margin-bottom: 1vw;
 
     text-align : center    ;
 
@@ -97,7 +99,7 @@ nav {
 
 main {
     text-align: center;
-    padding: 1.05vw;
+    padding: 0.5vw;
 }
 
 footer {
