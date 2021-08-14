@@ -178,11 +178,17 @@ iframe {
         display: none;
     }
   }
+ */
 
-  @media only screen and (max-width: 400px) {
-    body, .card {
-        background-color: var(--color1);
-        color : var(--color5);
+@media only screen and (max-width: 500px) {
+    body {
+        margin: 3vw 3vw 3vw 3vw;
     }
 
-  } */
+    section > p strong {
+    font-size: max(2.5vw, 18px);
+    padding: 2vw;
+    text-align : center    ;
+    }
+
+}
